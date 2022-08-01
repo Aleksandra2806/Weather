@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="weather.css">
+    <script src="https://kit.fontawesome.com/658038229a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" class="search-input" placeholder="Search">
+        <button>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+      <div class="date-container">
+        <div class="time">12:30</div>
+        <div class="date">Monday, 24 May</div>
+      </div>
+      <div class="weather">
+        <h2 class="city">Weather in Gomel</h2>
+        <h1 class="temp">51°C</h1>
+        <div class="minMax">17°C/30°C</div>
+        <div class="description">Cloudy</div>
+        <div class="flex">
+          <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+        </div>
+        <div class="flex">
+          <div class="sunrise">Sunrise: 6:30</div>
+          <div class="sunset">Sunset: 22:00</div>
+        </div>
+        <div class="flex">
+        <div class="humidity">Humidity: 60%</div>
+        <div class="pressure">Pressure: 1000 hPa</div>
+        <div class="wind">Wind speed: 6.2 km/h</div>
+        <div class="feels_like">Feels like: 20C</div>
+        </div >
+      </div>
+    </div>
+    <div class="card">
+      <div class="quote"></div>
+      <div class="author"></div>
+      <button class="btn">Next</button>
+    </div> 
+    <script src="weather.js"></script>
+  </body>
+</html> 
